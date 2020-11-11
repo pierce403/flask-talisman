@@ -286,7 +286,7 @@ a Python dictionary, e.g.:
 
 .. code:: bash
 
-    export CSP_DIRECTIVES="default-src 'self'; image-src *"
+    export CSP_DIRECTIVES="default-src 'self'; img-src *"
     python app.py
 
 Then in the app code you can read the CSP directives from the environment:
